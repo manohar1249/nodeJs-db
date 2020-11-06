@@ -1,0 +1,25 @@
+{
+  "name": "studentdb",
+  "version": "1.0.0",
+  "main": "db.js",
+  "scripts": {
+    "start":"node db.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manohar1249/nodeJs-db.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manohar1249/nodeJs-db/issues"
+  },
+  "homepage": "https://github.com/manohar1249/nodeJs-db#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
