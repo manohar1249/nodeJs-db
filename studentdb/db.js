@@ -9,7 +9,9 @@ app.use(bodyparser.json());
 //const client = mongodb.MongoClient;
 const dburl = process.env.db_url;
 
-
+app.get('/',async(req,res)=>{
+    res.status(200).json({msg:'connected'});
+})
 app.get('/mentors',async(req,res)=>{
     let connection;
     try{
