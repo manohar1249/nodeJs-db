@@ -12,7 +12,7 @@ const dburl = process.env.db_url;
 app.get('/',async(req,res)=>{
     res.status(200).json({msg:'connected'});
 })
-/*app.get('/mentors',async(req,res)=>{
+app.get('/mentors',async(req,res)=>{
     let connection;
     try{
          connection = await mongodb.MongoClient.connect(dburl);
@@ -90,7 +90,7 @@ app.get('/mentors/:name',async(req,res)=>{
         res.status(500).json(error);
         }
     }
-})*/
+})
 
 app.listen(process.env.PORT || 5000,()=>{
     console.log(dburl);
